@@ -83,7 +83,7 @@
 
     #sm-banner .banner-box {
         text-align: start;
-        background-image: url("/images/banner/b17.jpg");
+        background-image: url("../images/banner/b17.jpg");
         background-size: cover;
         background-position: center;
         min-width: 100%;
@@ -93,7 +93,7 @@
     }
 
     #sm-banner .banner-box2 {
-        background-image: url("/images/banner/b10.jpg");
+        background-image: url("../images/banner/b10.jpg");
     }
 
     #sm-banner h4 {
