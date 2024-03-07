@@ -29,5 +29,22 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 2000); 
 }
+
+
+// const setWidth = window.innerWidth;
+// const upTop = document.getElementById('upTop');
+// const setHight = window.innerHeight;
+// console.log(setHight);
+
+// if (setHight > 800) {
+//   upTop.addEventListener(() => {
+//     upTop.classList.add('active')
+//   })
+// }
+// const handleResize = () => {
+//   setWidth
+// }
+
+// window.addEventListener('resize', handleResize)
