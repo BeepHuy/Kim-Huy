@@ -133,11 +133,15 @@
         padding-top: 20px;
     }
 
-    /* 
     #prodetails .single-pro-details span {
         display: flex;
         line-height: 25px;
-    } */
+    }
+
+    /* Blog */
+    #blog {
+        padding: 100px 50px 0 50px;
+    }
 }
 
 @media (max-width: 477px) {
@@ -222,5 +226,26 @@
     #prodetails .single-pro-details span {
         display: flex;
         line-height: 25px;
+    }
+
+    /* Blog */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
     }
 }
